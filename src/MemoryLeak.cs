@@ -1,17 +1,15 @@
 using System;
+using System.Collections;
 
 namespace memoryManagement.src
 {
-    class MemoryLeak
+    public class MemoryLeak
     {
+        static ArrayList list = new ArrayList();
         public MemoryLeak()
         {
-
-        }
-
-        public void RunMemoryLeak ()
-        {
-            
+            Console.WriteLine("memoria memoria");
+            list.Add(this);
         }
     }
 }

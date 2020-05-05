@@ -1,5 +1,5 @@
 ﻿using System;
-using memoryManagement.src
+using memoryManagement.src;
 
 namespace memoryManagement
 {
@@ -9,9 +9,6 @@ namespace memoryManagement
         {
             MemoryLeak m = new MemoryLeak();
             MemoryLeakPatched mp = new MemoryLeakPatched();
-
-            
-
         }
     }
 }
