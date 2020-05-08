@@ -9,19 +9,27 @@ namespace memoryManagement.ex1
 
         public MemoryLeak()
         {
-            this.runMemoryLeak();
+            runMemoryLeak();
         }
 
         public void runMemoryLeak()
         {
             long i = 0;
-            long limit = 10000000000;
+            long limit = 100000;
             Obj o = new Obj(i);
+            
+            try{
+                while(i < limit)
+                {
+                    list.Add(o);
+                    i++;
+                    
+                }
+            }
 
-            while(i < limit)
+            catch(Exception e) 
             {
-                list.Add(o);
-                i++;
+                Console.WriteLine($"exception: {e.Message} Index: {i}");
             }
 
             Console.WriteLine("\nConcluído");

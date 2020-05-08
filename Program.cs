@@ -6,6 +6,10 @@ namespace memoryManagement
 {
     class Program
     {
+
+        //static MemoryLeak m;
+        //static MemoryLeakPatched mp;
+
         static void Main(string[] args)
         {
             int select = 0;
@@ -13,28 +17,38 @@ namespace memoryManagement
             while(true)
             {
                 Console.WriteLine("Para Ex1: digite 1\nPara Ex2:Digite 2");
-                select = int.Parse(Console.ReadLine());
 
-                if(select.GetType() == typeof(int)) 
+                if (int.TryParse(Console.ReadLine(), out select))
                 {
-                    switch(select)
+                    //if (select.GetType() == typeof(int))
+                    switch (select)
                     {
                         case 1:
-                            MemoryLeak m = new MemoryLeak();
-                        break;
+                            runEx1();
+                            break;
                         case 2:
-                            MemoryLeakPatched mp = new MemoryLeakPatched();   
-                        break;
+                            runEx2();
+                            break;
                         default:
                             Console.WriteLine("\nerro");
-                        break;
+                            break;
                     }
-                } 
+                }
                 else
                 {
                     Console.WriteLine("erro");
                 }
             }
+        }
+
+        static void runEx1() 
+        {
+            MemoryLeak m = new MemoryLeak();
+        }
+
+        static void runEx2()
+        {
+            MemoryLeakPatched mp = new MemoryLeakPatched();
         }
     }
 }

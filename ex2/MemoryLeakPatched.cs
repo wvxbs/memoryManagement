@@ -6,23 +6,30 @@ namespace memoryManagement.ex2
 {
     public class MemoryLeakPatched
     {
-        static ArrayList list = new ArrayList();
+        ArrayList list = new ArrayList();
 
         public MemoryLeakPatched()
         {
-            this.runMemoryLeak();
+            runMemoryLeakPatch();
         }
 
-        public void runMemoryLeak()
+        public void runMemoryLeakPatch()
         {
             long i = 0;
-            long limit = 1000000000000000000;
-
-            while(i < limit)
+            long limit = 100000;
+            Obj o = new Obj(i);
+            
+            try 
             {
-                Obj o = new Obj(i);
-                list.Add(o);
-                i++;
+                while(i < limit)
+                {
+                    list.Add(o);
+                    i++;
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine($"exception: {e.Message} Index: {i}");
             }
 
             Console.WriteLine("\nConcluído");

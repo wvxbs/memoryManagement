@@ -11,7 +11,12 @@ namespace  memoryManagement.ex1
 
         private void runObj(long i) 
         {
-            Console.Write(i);
+            /*if(i % 100000000 == 0) 
+            {
+             
+            } */
+
+            Console.WriteLine(i);
         }
     }
 }
