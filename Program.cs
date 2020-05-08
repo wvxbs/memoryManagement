@@ -1,5 +1,6 @@
 ﻿using System;
-using memoryManagement.src;
+using memoryManagement.ex1;
+using memoryManagement.ex2;
 
 namespace memoryManagement
 {
@@ -7,12 +8,33 @@ namespace memoryManagement
     {
         static void Main(string[] args)
         {
-            MemoryLeak m = new MemoryLeak();
-            MemoryLeakPatched mp = new MemoryLeakPatched();
+            int select = 0;
 
-            m.runMemoryLeak();
+            while(true)
+            {
+                Console.WriteLine("Para Ex1: digite 1\nPara Ex2:Digite 2");
+                select = int.Parse(Console.ReadLine());
 
-            
+                if(select.GetType() == typeof(int)) 
+                {
+                    switch(select)
+                    {
+                        case 1:
+                            MemoryLeak m = new MemoryLeak();
+                        break;
+                        case 2:
+                            MemoryLeakPatched mp = new MemoryLeakPatched();   
+                        break;
+                        default:
+                            Console.WriteLine("\nerro");
+                        break;
+                    }
+                } 
+                else
+                {
+                    Console.WriteLine("erro");
+                }
+            }
         }
     }
 }
