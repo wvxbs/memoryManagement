@@ -15,7 +15,7 @@ namespace memoryManagement.ex1
         public void runMemoryLeak()
         {
             long i = 0;
-            long limit = 1000000000000000000;
+            long limit = 10000000000;
             Obj o = new Obj(i);
 
             while(i < limit)
