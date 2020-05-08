@@ -9,6 +9,10 @@ namespace memoryManagement
         {
             MemoryLeak m = new MemoryLeak();
             MemoryLeakPatched mp = new MemoryLeakPatched();
+
+            m.runMemoryLeak();
+
+            
         }
     }
 }
