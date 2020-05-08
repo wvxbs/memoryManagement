@@ -1,4 +1,5 @@
 ﻿using System;
+using memoryManagement.ex1.src;
 
 namespace ex2
 {

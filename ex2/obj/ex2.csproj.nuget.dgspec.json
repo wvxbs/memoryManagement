@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex2\\ex2.csproj": {}
+    "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\ex2\\ex2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex2\\ex2.csproj": {
+    "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\ex2\\ex2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex2\\ex2.csproj",
+        "projectUniqueName": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\ex2\\ex2.csproj",
         "projectName": "ex2",
-        "projectPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex2\\ex2.csproj",
+        "projectPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\ex2\\ex2.csproj",
         "packagesPath": "C:\\Users\\GabrielFerreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex2\\obj\\",
+        "outputPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\ex2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
