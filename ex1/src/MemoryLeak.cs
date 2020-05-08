@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace memoryManagement.src
+namespace memoryManagement.ex1.src
 {
     public class MemoryLeak
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\memoryManagement.csproj": {}
+    "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex1\\memoryManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\memoryManagement.csproj": {
+    "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex1\\memoryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\memoryManagement.csproj",
+        "projectUniqueName": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex1\\memoryManagement.csproj",
         "projectName": "memoryManagement",
-        "projectPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\memoryManagement.csproj",
+        "projectPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex1\\memoryManagement.csproj",
         "packagesPath": "C:\\Users\\GabrielFerreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\obj\\",
+        "outputPath": "C:\\Users\\GabrielFerreira\\documents\\repos\\memorymanagement\\ex1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

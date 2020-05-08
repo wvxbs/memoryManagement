@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\memoryManagement.csproj",
+      "projectUniqueName": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\ex1\\memoryManagement.csproj",
       "projectName": "memoryManagement",
-      "projectPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\memoryManagement.csproj",
+      "projectPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\ex1\\memoryManagement.csproj",
       "packagesPath": "C:\\Users\\GabrielFerreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\obj\\",
+      "outputPath": "C:\\Users\\GabrielFerreira\\Documents\\repos\\memoryManagement\\ex1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

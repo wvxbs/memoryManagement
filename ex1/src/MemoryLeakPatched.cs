@@ -1,6 +1,6 @@
 using System;
 
-namespace memoryManagement.src
+namespace memoryManagement.ex1.src
 {
     public class MemoryLeakPatched
     {       
